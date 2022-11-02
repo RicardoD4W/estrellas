@@ -1,0 +1,53 @@
+.conteiner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap : 20px;
+}
+
+
+header{
+    text-align: center;
+    padding: 3em 0;
+}
+
+header :is(h1,h2,p){
+    color: white;
+}
+
+header h1{
+    letter-spacing: 10px;
+    color: #fff9;
+}
+header h2{
+    letter-spacing: -1px;
+}
+
+.page{
+    padding: 20px;
+}
+
+body{
+    background-color: #111;
+    background-image: 
+        radial-gradient(circle 200px at 75% 25%, #0000bd, transparent),
+        radial-gradient(circle 200px at 45% 40%, #5b009c, transparent);
+}
+
+h1 span {
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+    -webkit-text-stroke-width: 2px;
+    
+    color: #0009;
+    animation: shine 2s ease-in-out infinite alternate
+}
+
+@keyframes shine {
+    from {
+        text-shadow: 0 0 10px gold;
+    }
+    to {
+        text-shadow: 0 0 35px gold;
+        color: rgb(196, 166, 0);
+    }
+}
