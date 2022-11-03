@@ -66,10 +66,10 @@ class RoadMapCard extends HTMLElement {
 
     render(){
         this.shadowRoot.innerHTML = `
-        <script type="text/javascript" src="vanilla-tilt.js"></script>
+        
 
             <style>${RoadMapCard.styles}</style>
-            <div class="card" ${data-tilt}>
+            <div class="card" >
                 <div class="image-conteiner">
                     <img class="logo" src="logos/${this.name}.svg" alt="${this.description}" />
                 </div>
