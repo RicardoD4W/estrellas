@@ -1,4 +1,4 @@
-import VanillaTilt from "vanilla-tilt.js";
+import VanillaTilt from "vanilla-tilt";
 
 
 
