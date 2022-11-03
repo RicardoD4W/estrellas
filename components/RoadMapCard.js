@@ -69,7 +69,7 @@ class RoadMapCard extends HTMLElement {
         <script type="text/javascript" src="vanilla-tilt.js"></script>
 
             <style>${RoadMapCard.styles}</style>
-            <div class="card">
+            <div class="card" data-tilt>
                 <div class="image-conteiner">
                     <img class="logo" src="logos/${this.name}.svg" alt="${this.description}" />
                 </div>
