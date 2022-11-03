@@ -1,4 +1,4 @@
-import VanillaTilt from "../node_modules/vanilla-tilt";
+import VanillaTilt from "/vanilla-tilt";
 
 
 
