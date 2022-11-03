@@ -8,8 +8,6 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "vanilla-tilt": "^1.7.3"
-  }
+  "license": "ISC"
+
 }

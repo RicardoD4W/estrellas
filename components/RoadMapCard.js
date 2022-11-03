@@ -1,5 +1,4 @@
-//import VanillaTilt from "vanilla-tilt";
-
+import VanillaTilt from '../vanilla-tilt.js';
 
 
 class RoadMapCard extends HTMLElement {
@@ -61,7 +60,7 @@ class RoadMapCard extends HTMLElement {
         this.name = this.getAttribute('name');
         this.description = this.getAttribute('description');
         this.render();
-    //    this.addEfect();
+        this.addEfect();
     }
 
     render(){
