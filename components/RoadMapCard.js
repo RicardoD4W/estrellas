@@ -1,4 +1,4 @@
-import VanillaTilt from "vanilla-tilt/build";
+import VanillaTilt from "../vanilla-tilt";
 
 
 
