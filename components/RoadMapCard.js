@@ -1,4 +1,4 @@
-import VanillaTilt from "/node_modules/vanilla-tilt/vanilla-tilt";
+//import VanillaTilt from "vanilla-tilt";
 
 
 
@@ -66,6 +66,8 @@ class RoadMapCard extends HTMLElement {
 
     render(){
         this.shadowRoot.innerHTML = `
+        <script type="text/javascript" src="vanilla-tilt.js"></script>
+
             <style>${RoadMapCard.styles}</style>
             <div class="card">
                 <div class="image-conteiner">
