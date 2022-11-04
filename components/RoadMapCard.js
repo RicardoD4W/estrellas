@@ -53,7 +53,13 @@ class RoadMapCard extends HTMLElement {
 
     addEfect(){
         const card = this.shadowRoot.querySelector('.card');
-        VanillaTilt.init(card, { glare : true, "max-glare" : 0.8, gyroscope : true, scale : 1, transition : true, axis : 'x'});
+
+        let navegador = navigator.userAgent; // movil
+        if (navigator.userAgent.match(/Android/i) || navigator.userAgent.match(/webOS/i) || navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPad/i) || navigator.userAgent.match(/iPod/i) || navigator.userAgent.match(/BlackBerry/i) || navigator.userAgent.match(/Windows Phone/i)) {
+            VanillaTilt.init(card, { glare : true, "max-glare" : 0.8, gyroscope : true, scale : 1, transition : true});
+        }else{ // pc
+            VanillaTilt.init(card, { glare : true, "max-glare" : 0.8, scale : 0.9, transition : true, axis : 'x'});
+        }
     }
 
     connectedCallback (){
