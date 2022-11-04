@@ -53,7 +53,7 @@ class RoadMapCard extends HTMLElement {
 
     addEfect(){
         const card = this.shadowRoot.querySelector('.card');
-        VanillaTilt.init(card, { glare : true, "max-glare" : 0.8, gyroscope : true, scale : 0.9, transition : true, axis : 'x'});
+        VanillaTilt.init(card, { glare : true, "max-glare" : 0.8, gyroscope : true, scale : 1, transition : true, axis : 'x'});
     }
 
     connectedCallback (){
